@@ -1,0 +1,290 @@
+#navbar{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid black; */
+    background-color: rgb(238, 245, 245);
+    border: none;
+}
+#logo{
+    display: inline-block;
+    margin: 10px 10px;
+}
+#logo>img{ display: inline-block;}
+#logo>h1{display: inline-block;
+padding: 0px;}
+#list{
+    display: inline-block;
+    margin-left: 500px;
+}
+#list>ul{ 
+    display: inline-block;
+}
+#list>ul>li{
+    display: inline-block;
+    padding-left: 20px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+ul>button{
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+    border-width: none;
+    border-style: none;
+    background-color: rgb(169, 110, 224);
+    margin-right: 5px;
+    cursor: pointer;
+}
+ul>li:hover{
+    background-color: rgb(169, 110, 224);
+    padding: 10px;
+    border-radius:6px ;
+    color: white;
+    cursor: pointer;
+}
+body{ background-color:rgb(240, 228, 252) ;}
+#d1{
+    width: 100%;
+    height: 590px;
+    /* border: 2px solid black; */
+    display: inline-block;
+}
+#box1{
+    width: 40%;
+    height: 550px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+#box2{
+    width: 500px;
+    height: 550px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgba(245, 241, 241, 0.904);
+border-style: none;    
+border-width: none;
+margin-left: 100px;
+margin-top: 70px;
+}
+
+#text1{
+    width: 70%;
+    /* height: 100px; */
+    /* border: 2px solid black; */
+   margin: 50px;
+   margin-left: 50px; 
+}
+#text1>button{ padding: 10px 20px; 
+font-size: 20px ;
+border-radius: 7px;
+color: white;
+font-weight: bold;
+background-color: rgb(169, 110, 224);
+border-width: none;
+    border-style: none;
+    cursor: pointer;
+}
+ #text1>button:hover{
+    background-color: rgb(169, 110, 0);
+}
+#p1{ 
+    display: inline-block;
+    width: 25%;
+    height: 120px;
+    /* border: 2px solid black; */
+    margin: 10px;
+    text-align: center;
+    background-color:rgb(212, 196, 226) ;
+    border-style: none;
+}
+#text1>p{ font-size: 20px;
+
+} 
+#text1>h1{ font-size: 40px;
+
+} 
+#d2{
+    width: 80%;
+    border: 2px solid black;
+    margin: 100px 60px 40px 120px;
+    border-radius: 20px;
+   background-color: rgb(255, 244, 244);
+   border: none;
+   margin-top: 140px;
+}
+ #box3{
+    width: 490px;
+    height: 550px;
+    /* border: 2px solid black; */
+    margin: 40px;
+    margin-right: 50px;
+    display: inline-block;
+    border-radius:20px ;
+    border-style: none;
+    background-color: rgb(212, 205, 205);
+ }
+ #box4{
+    width: 50%;
+    height: 550px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    vertical-align: top;
+ }
+ #text2{
+    width: 70%;
+    /* border: 2px solid black; */
+    margin: 70px;
+    vertical-align: top;
+ }
+ #text2>h1{ font-size: 40px;
+display: block;
+}
+ #text2>p{ font-size:20px ;
+    color: gray;
+}
+ #text2>button{ 
+margin: 10px;
+padding: 20px 20px;
+/* border: none; */
+border-radius: 5px;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+}
+.btn1{
+    background-color:rgb(169, 110, 224) ;
+    color: white;
+    border: none;
+}
+.btn2{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.btn1:hover{ 
+    background-color:rgb(51, 22, 78) ;
+    color: white;
+}
+.btn2:hover{
+    border-color: rgb(169, 110, 224);
+    color:rgb(169, 110, 224) ;
+}
+#d3{
+    width: 100%;
+    /* height: 100%; */
+    border: 2px solid black;
+}
+#main3{ width: 100%;
+/* border: 2px solid black; */
+margin-top: 220px;
+background-color: rgb(226, 225, 225);
+}
+#box6{
+    width: 35%;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+#box7{
+    width: 40%;
+    height: 500px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    display: inline-block;   
+}
+#text3>h1{
+    font-size: 50px;
+}
+#text3>p{
+    font-size: 20px;
+    color: gray;
+}
+.box6child{
+    width: 40%;
+    height: 190px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(73, 110, 146);
+    border: none;
+}
+.box6child>p{
+    color: rgb(179, 165, 165);
+}
+ #portfolio{
+    width: 100%;
+     border: 2px solid black;
+    background-color: rgb(187, 114, 114);
+    margin-top: 100px;
+    border-color:rgb(252, 245, 245) ;
+} 
+#portdiv{
+    width: 35%;
+    /* border: 2px solid black; */
+    margin-left: 500px;
+    margin-top: 100px;
+    text-align: center;
+    border: none;
+    vertical-align: top;
+}
+#portdiv>h1{
+    font-size: 50px;
+}
+#portdiv>p{
+    font-size: 20px;
+    color: gray;
+}
+#text4{
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: rgb(252, 245, 245);
+}
+.porttext{
+    width: 390px;
+    /* height: 80px; */
+    border: 2px solid black;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 70px;
+padding: 0px;
+border-radius: 10px;
+background-color: white;
+border: none;
+}
+.porttext>h4{
+    padding-left: 15px;
+}
+.porttext>p{
+    padding-left: 15px;
+    color: gray;
+}
+.porttext>button{
+    margin-left: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(254, 255, 255);
+}
+.porttext>button:hover{
+    color: rgb(87, 44, 128);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(65, 28, 100);
+
+}
